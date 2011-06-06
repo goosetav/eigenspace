@@ -18,7 +18,7 @@ John Metta posted a nice article about wordpress, git and github at http://metta
 
 
 
-== License
+== License (the "MIT License")
 
 Copyright (C) 2011 by Erik Gustavson
 
