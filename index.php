@@ -9,7 +9,18 @@
   <?php while (have_posts()) : the_post(); ?>
 
     <div <?php post_class(); ?>>
-      <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+      <h2 class="title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+      
+      <ul class="meta">
+         <?php
+	    foreach((get_the_category()) as $category) {
+	      if ($category->cat_name != 'Uncategorized') {
+	        echo "<li class=\"tag\">$category->cat_name</li>";
+	      }
+	    }
+         ?>
+         <li><?php the_time('F jS, Y'); ?></li>
+      </ul>
 
       <?php if (has_post_thumbnail()) : ?>
         <div class="post-thumb">
@@ -17,11 +28,7 @@
         </div>
       <?php endif; ?>
 
-      <?php the_content(''); ?>
-      <ul class="meta">
-        <li><?php the_time('F jS, Y'); ?></li>
-	<li><?php comments_number('No Comments', '1 Comment', '% Comments'); ?></li>
-      </ul>
+      <div class="the_post"><?php the_content('Read more...'); ?></div>
 
    <?php endwhile; ?>
 

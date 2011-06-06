@@ -2,7 +2,7 @@
 Theme Name: eigenspace
 Theme URI: http://eigenspace.org
 Description: The eigenspace.org wordpress theme
-Version: 1
+Version: 1.0
 Author: Erik Gustavson
 Author URI: http://eigenspace.org/me
 */
@@ -19,6 +19,9 @@ h1,h2,h3,h4,h5,h6 {
 a,a:visited,a:hover {
   color: #3b6f8d;
   text-decoration: none;
+}
+
+.blue {
 }
 
 div.sidebar {
@@ -54,34 +57,53 @@ div.sidebar h3 li {
   list-style: none;
 }
 
+h2.title {
+  padding-bottom: 4px;
+  margin-bottom: 0;
+  border: 0;
+}
+
 div#main {
   margin-left: 300px;
   text-align: left;
+  width: 600px;
+}
+
+ul.meta {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 ul.meta li {
   list-style: none;
   float: left;
   padding: 5px;
-  color: white;
-  background: #CCC;
-  margin-left: 0;
-  margin-right: 10px;
+  color: #ccc;
   font-size: smaller;
-  
-  
+  font-style: italic;
+  text-decoration: none;
+  font-weight: normal;
+  padding: 2px 8px;
+  margin-right: 3px;
 }
 
-ul.meta {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #CCC;
+ul.meta li.tag {
+  color: white;
+  background: #3b6f8d;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
 }
 
 div.pagination li {
   list-style: none;
   float: left;
 }
+
+div.the_post {
+  clear: both;
+  margin-top: 35px;
+  text-align: left;
+  font-size: 1.2em;
+}
+
