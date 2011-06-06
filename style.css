@@ -1,0 +1,87 @@
+/*
+Theme Name: eigenspace
+Theme URI: http://eigenspace.org
+Description: The eigenspace.org wordpress theme
+Version: 1
+Author: Erik Gustavson
+Author URI: http://eigenspace.org/me
+*/
+
+html, body {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  color: #222;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+
+a,a:visited,a:hover {
+  color: #3b6f8d;
+  text-decoration: none;
+}
+
+div.sidebar {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  text-align: right;
+  color: #7A7A7A;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+div.sidebar h1 {
+  font-size: 3em;
+  color: #222;
+}
+
+div.sidebar h1 a,div.sidebar h1 a:visited,div.sidebar h1 a:hover {
+  color: #222;
+}
+
+div.sidebar h2 {
+  font-size: 1em;
+}
+
+div.sidebar h3 {
+  font-size: 1em;
+}
+
+div.sidebar h3 li {
+  list-style: none;
+}
+
+div#main {
+  margin-left: 300px;
+  text-align: left;
+}
+
+ul.meta li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+  color: white;
+  background: #CCC;
+  margin-left: 0;
+  margin-right: 10px;
+  font-size: smaller;
+  
+  
+}
+
+ul.meta {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #CCC;
+}
+
+div.pagination li {
+  list-style: none;
+  float: left;
+}
