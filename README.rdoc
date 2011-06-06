@@ -1,6 +1,6 @@
 == About this Wordpress theme
 
-A custom theme I built for my blog at [www.eigenspace.org] {http://www.eigenspace.org}
+A custom theme I built for my blog at http://www.eigenspace.org
 
 == Installing
 
