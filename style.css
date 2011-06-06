@@ -21,9 +21,6 @@ a,a:visited,a:hover {
   text-decoration: none;
 }
 
-.blue {
-}
-
 div.sidebar {
   position: fixed;
   top: 0px;
@@ -34,6 +31,8 @@ div.sidebar {
   padding: 0;
   margin: 0;
   border: 0;
+  width: 260px;
+  overflow: hidden;
 }
 
 div.sidebar h1 {
@@ -64,7 +63,7 @@ h2.title {
 }
 
 div#main {
-  margin-left: 300px;
+  margin-left: 325px;
   text-align: left;
   width: 600px;
 }
@@ -107,3 +106,32 @@ div.the_post {
   font-size: 1.2em;
 }
 
+div.footer {
+  bottom: 10px;
+  top: auto;
+  font-size: .5em;
+}
+
+div.legal {
+  font-size: .3em;
+}
+
+hr.divider {
+  height: 0;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 16px auto;
+  width: 66%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #AAA;
+  border-bottom: 1px solid #FFF;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+}

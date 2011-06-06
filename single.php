@@ -33,6 +33,8 @@
       <?php the_content(); ?>
     </div>
 
+    <hr class="divider">
+
     <?php comments_template(); ?>
 
     <?php endwhile; ?>
