@@ -8,7 +8,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 
-<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('template_url'); ?>/favicon.ico">
 
 <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 

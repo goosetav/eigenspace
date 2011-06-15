@@ -11,6 +11,7 @@
        <li>Connect with me on <a href="http://linkedin.com/in/erikgustavson">LinkedIn</a>
        <li>Bookmarks from <a target="_blank" href="http://feeds.delicious.com/v2/rss/erik.gustavson">delicious</a>
        <li>Subscribe to <a target="_blank" href="<?php echo get_feed_link(); ?>">eigenspace</a>
+       <li>My Google<a target="_blank" href="https://profiles.google.com/goose1">+1 profile</a>
      </ul>
 
      <ul class="">
