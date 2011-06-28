@@ -10,8 +10,9 @@
        <li>Fork my code on <a href="http://github.com/goosetav">Github</a>
        <li>Connect with me on <a href="http://linkedin.com/in/erikgustavson">LinkedIn</a>
        <li>Bookmarks from <a target="_blank" href="http://feeds.delicious.com/v2/rss/erik.gustavson">delicious</a>
+       <li>My Profile on <a target="_blank" href="http://www.crunchbase.com/person/erik-gustavson">CrunchBase</a>
        <li>Subscribe to <a target="_blank" href="<?php echo get_feed_link(); ?>">eigenspace</a>
-       <li>My Google<a target="_blank" href="https://profiles.google.com/goose1">+1 profile</a>
+       <li>My Google <a target="_blank" href="https://profiles.google.com/goose1">+1 profile</a>
      </ul>
 
      <ul class="">
