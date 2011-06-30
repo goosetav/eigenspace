@@ -43,6 +43,8 @@ div.sidebar {
 div.sidebar h1 {
   font-size: 3em;
   color: #222;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 div.sidebar h1 a,div.sidebar h1 a:visited,div.sidebar h1 a:hover {
@@ -148,4 +150,17 @@ hr.divider {
   font-size: 1px;
   line-height: 0;
   overflow: visible;
+}
+
+.like_bar {
+  margin-top: -10px;
+  height: 10px;
+}
+
+.like_bar ul {
+  list-style: none;
+}
+
+.like_bar ul li {
+  float: right;
 }

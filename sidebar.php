@@ -1,7 +1,12 @@
 <div class="sidebar">
 
    <h1><a href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></h1>
-
+   <div class="like_bar">
+	<ul>
+		<li><g:plusone size="small"></g:plusone></li>
+	</ul>
+	<div style="clear: both;"></div>
+   </div>
    <h2 class="desc"><?php bloginfo('description'); ?></h2>
 
    <h3>
