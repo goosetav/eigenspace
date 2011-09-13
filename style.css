@@ -112,9 +112,11 @@ div.pagination li {
 
 div.the_post {
   clear: both;
-  margin-top: 35px;
+  margin-top: 40px;
   text-align: left;
   font-size: 1.2em;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #EFEFEF;
 }
 
 div.footer {
